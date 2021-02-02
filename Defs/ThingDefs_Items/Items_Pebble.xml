@@ -64,14 +64,14 @@
   </ThingDef>
   <RecipeDef>
     <defName>Make_Pebble</defName>
-    <label>make pebbles</label>
+    <label>make 25 pebbles</label>
     <description>Break pebbles of a chunk.</description>
     <jobString>Breaking pebbles of a chunk.</jobString>
     <workAmount>800</workAmount>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
     <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-    <targetCountAdjustment>10</targetCountAdjustment>
+    <targetCountAdjustment>25</targetCountAdjustment>
     <recipeUsers>
       <li>CraftingSpot</li>
       <li>TableStonecutter</li>
@@ -92,7 +92,40 @@
       </categories>
     </fixedIngredientFilter>
     <products>
-      <Pebble>10</Pebble>
+      <Pebble>25</Pebble>
+    </products>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Make_BulkPebble</defName>
+    <label>make pebbles 125</label>
+    <description>Break pebbles of 5 chunks.</description>
+    <jobString>Breaking pebbles of 5 chunk.</jobString>
+    <workAmount>3000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <targetCountAdjustment>125</targetCountAdjustment>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneChunks</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneChunks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <Pebble>125</Pebble>
     </products>
   </RecipeDef>
 </Defs>
