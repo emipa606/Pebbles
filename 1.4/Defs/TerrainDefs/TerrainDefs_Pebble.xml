@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>FlagstonePebble</defName>
+    <label>pebble flagstone</label>
+    <costList>
+      <Pebble>4</Pebble>
+    </costList>
+  </TerrainDef>
+</Defs>
