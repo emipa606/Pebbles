@@ -14,7 +14,7 @@
       <drawSize>(1.1,1.1)</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>1.2</MarketValue>
+      <MarketValue>0.75</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>0.4</Mass>
       <Flammability>0</Flammability>
