@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make pebbles 125 -->
+  <Make_BulkPebble.label>make pebbles 125</Make_BulkPebble.label>
+  <!-- EN: Break pebbles of 5 chunks. -->
+  <Make_BulkPebble.description>Break pebbles of 5 chunks.</Make_BulkPebble.description>
+  <!-- EN: Breaking pebbles of 5 chunk. -->
+  <Make_BulkPebble.jobString>Breaking pebbles of 5 chunk.</Make_BulkPebble.jobString>
+  <!-- EN: make 25 pebbles -->
+  <Make_Pebble.label>make 25 pebbles</Make_Pebble.label>
+  <!-- EN: Break pebbles of a chunk. -->
+  <Make_Pebble.description>Break pebbles of a chunk.</Make_Pebble.description>
+  <!-- EN: Breaking pebbles of a chunk. -->
+  <Make_Pebble.jobString>Breaking pebbles of a chunk.</Make_Pebble.jobString>
+</LanguageData>

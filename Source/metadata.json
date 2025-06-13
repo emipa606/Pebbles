@@ -1,6 +1,12 @@
 {
   "Continued": true,
-  "CanAdd": "",
+  "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "LastXmlCleaning": "2025-06-13T13:20:29.3065888+02:00",
+  "SocialImageSet": true,
+  "SearchTags": [
+    " early game",
+    " stone"
+  ]
 }
